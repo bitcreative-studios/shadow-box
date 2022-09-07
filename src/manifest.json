@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Shadow Box",
+  "version": "0.0.1",
+  "icons": {
+    "256": "assets/shadow-box.png"
+  },
+  "action": {
+    "default_icon": "assets/shdow-box.png"
+  },
+  "background": {
+    "service_worker": "pages/background/background-worker.js"
+  }
+}
